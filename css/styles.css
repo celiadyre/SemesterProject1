@@ -1,0 +1,94 @@
+:root {
+    --color-accent: #FFFFEB; /* Ivory */
+    --color-primary1: #2B8EDF; /* Blue */
+    --color-primary2: #604BA9; /* Purple */
+    --color-primary3: #D42020; /* Red */
+    --color-primary4: #31AF6C; /* Green */
+}
+
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h2 {
+    font: "Barrio", sans-serif;
+    color: var(--color-accent);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.homepage .h3 {
+    color: var(--color-primary1);
+}
+
+.explorepage .h3 {
+    color: var(--color-primary2);
+}
+
+.exhibitionspage .h3 {
+    color: var(--color-primary3);
+}
+
+.visitpage .h3 {
+    color: var(--color-primary4);
+}
+
+.h4 {
+    font: "Lato", sans-serif;
+    color: var(--color-accent);
+    font-size: 1.875em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.h5 {
+    font: "Lato", sans-serif;
+    color: var(--color-accent);
+    font-size: 1.6em;
+}
+
+.header {
+    margin: 38px 23px 38px 23px;
+    text-align: center;
+}
+
+.body {
+    background-color: var(--color-accent);
+    text-align: center;
+}
+
+.footer {
+    margin: 20px 23px 20px 23px;
+    text-align: left;
+}
+
+.homepage .header .footer {
+    background-color: var(--color-primary1);
+}
+
+.explorepage .header .footer {
+    background-color: var(--color-primary2);
+}
+
+.exhibitionspage .header .footer {
+    background-color: var(--color-primary3);
+}
+
+.visitpage .header .footer {
+    background-color: var(--color-primary4);
+}
+
+.banner {
+    height: 392px;
+    width: 100%;
+    margin: 0
+}
