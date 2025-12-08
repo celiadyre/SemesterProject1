@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+    --color-accent: #FFFFEB; /* Ivory */
+    --color-primary1: #2B8EDF; /* Blue */
+    --color-primary2: #604BA9; /* Purple */
+    --color-primary3: #D42020; /* Red */
+    --color-primary4: #31AF6C; /* Green */
+}
+
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+    font-family: "Barrio", system-ui;
+    color: var(--color-accent);
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: "Barrio", system-ui;
+    font-size: 2.5rem;
+    text-align: left;
+    padding: 0px 0px 18px 23px;
+}
+
+.homepage h3 {
+    color: var(--color-primary1);
+}
+
+.explorepage h3 {
+    color: var(--color-primary2);
+}
+
+.exhibitionspage h3 {
+    color: var(--color-primary3);
+}
+
+.visitpage h3 {
+    color: var(--color-primary4);
+}
+
+h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: var(--color-accent);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    color: var(--color-accent);
+    font-size: 1.6rem;
+}
+
+body {
+    background-color: var(--color-accent);
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    height: 153px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    padding: 38px 23px 38px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 420px;
+}
+
+.nav-links {
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    gap: 136px;
+}
+
+footer {
+    padding: 20px 23px 20px 23px;
+    height: 253px;
+    justify-content: space-between;
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.opening-hours,
+.address {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.opening-hours h2,
+.opening-hours h4,
+.address h2,
+.address h4 {
+    text-align: left;
+    align-self: flex-start;
+}
+
+/* Remove bullets and default indentation for any lists inside the footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Per-page header/footer and navbar colors */
+.homepage header,
+.homepage footer {
+    background-color: var(--color-primary1);
+}
+
+.explorepage header,
+.explorepage footer {
+    background-color: var(--color-primary2);
+}
+
+.exhibitionspage header,
+.exhibitionspage footer {
+    background-color: var(--color-primary3);
+}
+
+.visitpage header,
+.visitpage footer {
+    background-color: var(--color-primary4);
+}
+
+.banner {
+    height: 392px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.happening-now {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.happening-now img{
+    height: 319px;
+    width: 33.33333%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
