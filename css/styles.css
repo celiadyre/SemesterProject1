@@ -346,7 +346,7 @@ footer ul {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-   gap: 35px;
+    gap: 35px;
 }
 
 .visit-us-background-2 {
@@ -360,6 +360,7 @@ footer ul {
 
 .visit-us-key-info h3 {
     text-align: left;
+    margin-top: 10px;
 }
 
 .visit-us-key-info p {
@@ -374,7 +375,12 @@ footer ul {
     margin: 70px 50px 50px 50px;
 }
 
-.visit-us-container h3 {
+.visit-us-background-3 h3 {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.visit-us-background-3 p {
     text-align: left;
 }
 
@@ -389,4 +395,5 @@ footer ul {
     background-color: var(--color-accent);
     border: 3px solid var(--color-primary4);
     border-radius: 10px;
+    margin: 23px;
 }
