@@ -123,8 +123,13 @@ a {
     margin-left: 500px;
 }
 
+.nav-links a:hover {
+    text-decoration: underline;
+    color: var(--color-accent);
+}
+
 footer {
-    padding: 23px;
+    padding: 23px 70px;
     justify-content: space-between ;
     display: flex;
     flex-wrap: wrap;
@@ -152,6 +157,10 @@ footer {
     display: flex;
     align-items: space-evenly;
     color: var(--color-accent)
+}
+
+.socials a:hover {
+    color: black;
 }
 
 footer ul {
@@ -187,6 +196,7 @@ footer ul {
     position: relative;
     margin-bottom: 18px;
 }
+/* Home Page Style */
 
 .happening-now {
     display: flex;
@@ -249,6 +259,8 @@ footer ul {
     margin: 13px;
 }
 
+/*Exhibitions Page Style */
+
 .exhibitions-item h4{
     position: absolute;
     margin-left: 13px;
@@ -280,11 +292,14 @@ footer ul {
 
 .explore-background h3{
     text-align: left;
+    margin-top: 10px;
 }
 
 .explore-container p {
     color: var(--color-primary2)
 }
+
+/*Exhibitions Page Style */
 
 .exhibitions-container {
     display: flex;
@@ -310,11 +325,14 @@ footer ul {
 
 .exhibitions-background h3{
     text-align: left;
+    margin-top: 10px;
 }
 
 .exhibitions-container p {
     color: var(--color-primary3)
 }
+
+/*Visit Us Page Style */
 
 .visit-us-key-info {
     display: flex;
@@ -373,7 +391,7 @@ footer ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 70px 50px 50px 50px;
+    margin: 23px;
 }
 
 .visit-us-background-3 h3 {
@@ -398,3 +416,4 @@ footer ul {
     border-radius: 10px;
     margin: 23px;
 }
+
