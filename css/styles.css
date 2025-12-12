@@ -168,7 +168,6 @@ footer {
 
 .socials {
     display: flex;
-    align-items: space-evenly;
     color: var(--color-accent)
 }
 
@@ -431,16 +430,15 @@ footer ul {
     margin: 23px;
 }
 
-/* Responsive: mobile/tablet adjustments */
+/* MOBILE */
 @media (max-width: 768px) {
-    /* Prevent horizontal overflow on small screens */
     html, body {
         max-width: 100vw;
         overflow-x: hidden;
         position: relative;
     }
 
-    /* Ensure any element sized to 100% doesn't exceed the viewport when margins are present */
+    /* Mobile Homepage */
     
     .explore-container,
     .exhibitions-container,
@@ -452,7 +450,7 @@ footer ul {
         padding-right: 8px;
     }
     .happening-item, .exhibitions-item {
-        width: 360px; /* match Energetica container width */
+        width: 360px;
         height: auto;
         margin: 8px;
         border-width: 2px;
@@ -461,11 +459,11 @@ footer ul {
         align-items: center;
         background-color: var(--color-accent);
         border-radius: 10px;
-        padding: 10px; /* more breathing room inside */
+        padding: 10px;
     }
     .happening-item img, .exhibitions-item img {
         width: 100%;
-        height: 200px; /* slightly larger image to match Energetica look */
+        height: 200px;
         object-fit: cover;
         border-radius: 8px;
         margin: 0 0 8px 0;
@@ -478,8 +476,7 @@ footer ul {
         background: transparent;
     }
 
-    /* All other page flex containers become single column */
-    /* Force homepage sections to single column as well */
+    /* Mobile Explore Page & Exhibitions  */
     .happening-now,
     .exhibitions,
     .explore-container,
@@ -495,7 +492,7 @@ footer ul {
         margin: 8px;
     }
 
-    /* Place images before text on mobile so visuals appear above content */
+    /* Images Placed Before Information */
     .explore-container > img,
     .exhibitions-container > img,
     .visit-us-background-1 img,
@@ -506,16 +503,15 @@ footer ul {
         margin: 8px;
     }
 
-    /* Make card-like blocks full width (with a max for readability) */
     .explore-background,
     .exhibitions-background,
     .visit-us-background-1,
     .visit-us-background-2,
     .visit-us-background-3 {
         width: 100%;
-        max-width: 360px; /* match Energetica card */
+        max-width: 360px; 
         height: auto;
-        margin: 8px auto; /* centered with extra margin */
+        margin: 8px auto;
         padding: 10px;
         box-sizing: border-box;
     }
@@ -523,17 +519,17 @@ footer ul {
     .explore-container img,
     .exhibitions-container img {
         width: 360px;
-        height: 200px; /* consistent with Energetica mobile image */
+        height: 200px;
         object-fit: cover;
         margin: 0px 16px;
     }
-    /* keep visit-us map image full width but natural height */
+
     .visit-us-background-1 img {
         width: 100%;
         height: auto;
     }
 
-    /* On mobile ensure the map image sits inside the box and text spacing is controlled */
+
     .visit-us-background-1 {
         padding: 10px;
         box-sizing: border-box;
@@ -542,7 +538,7 @@ footer ul {
         display: block;
         width: 100%;
         height: auto;
-        margin: 0 0 10px 0; /* keep image inside the container without extra margins */
+        margin: 0 0 10px 0;
         border: 1px solid var(--color-primary4);
     }
     .visit-us-background-1 h3,
@@ -550,7 +546,7 @@ footer ul {
         margin: 6px 0;
         line-height: 1.4;
     }
-    /* ensure other visit-us boxes have controlled text spacing on mobile */
+
     .visit-us-background-2 h3,
     .visit-us-background-2 p,
     .visit-us-background-3 h3,
@@ -559,13 +555,12 @@ footer ul {
         line-height: 1.4;
     }
 
-    /* Prevent long unbroken strings (emails, URLs) from overflowing contact box */
     .visit-us-background-3 p {
        text-wrap: nowrap;
         white-space: normal;
     }
 
-    /* Footer stacked vertically and centered */
+    /* Mobile Footer */
     footer {
         flex-direction: column;
         align-items: center;
@@ -593,13 +588,14 @@ footer ul {
         margin-top: 8px;
     }
 
+/* Mobile Navigation */
+
 .nav-links {
     gap: 18px;
     margin-left: 0;
     padding-right: 12px;
 }
 
-/* Stack brand and hamburger vertically and center on mobile */
 .nav-left {
     display: flex;
     flex-direction: column;
@@ -608,7 +604,6 @@ footer ul {
     gap: 8px;
 }
 
-/* Page-specific header colors */
 .homepage .nav-left {
     background-color: var(--color-primary1);
 }
@@ -625,14 +620,12 @@ footer ul {
     background-color: var(--color-primary4);
 }
 
-/* Center brand text in the navbar on mobile */
 .navbar h2,
 .nav-left h2,
 .nav-left a h2 {
     text-align: center;
 }
 
-/* Match brand title to h3 size on mobile */
 .navbar h2,
 .nav-left h2,
 .nav-left a h2 {
