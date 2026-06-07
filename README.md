@@ -12,7 +12,6 @@ Features:
 Bugs/Issues:
     Unclickable links on homepage - missing pages
     No attached social medias
-    Still image of visit address
 
 
 - Celia Dyremyhr

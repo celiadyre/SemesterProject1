@@ -364,7 +364,7 @@ footer ul {
     border-radius: 10px;
 }
 
-.visit-us-background-1 img {
+.visit-us-background-1 iframe {
     height: 460px;
     width: 690px;
     object-fit: cover;
